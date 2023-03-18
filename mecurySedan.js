@@ -33,7 +33,7 @@ class Car extends VehicleModule.Vehicle {
     
     newService(){
       if(this.mileage > 30000){
-          this.scheduleService = true;
+          this.scheduleService = false;
           console.log("service needed")
         return this.scheduleService;
         } 
